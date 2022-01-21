@@ -4,7 +4,15 @@
 # In[20]:
 
 
-#Creating the function displayInventory that takes a dictionary and displays the items as list
+""" Create a function displayInventory that takes a dictionary and displays the items as follows:
+Inventory:
+12 arrow
+42 gold coin
+1 rope
+6 torch
+1 dagger
+Total number of items: 62 """
+
 
 def displayInventory(inv):
     total_items = 0
@@ -16,7 +24,7 @@ def displayInventory(inv):
         
     print("Total number of items: %d" %total_items)
     
-#Adding loot to inventory
+#Add loot from dragonLoot to inventory
 
 def addToInventory(invtry, addedItems):
     for loot in dragonLoot:
